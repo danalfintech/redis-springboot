@@ -27,6 +27,7 @@ dependencies {
 //	compile group: 'redis.clients', name: 'jedis
 
 	annotationProcessor 'org.projectlombok:lombok'
+	testAnnotationProcessor 'org.projectlombok:lombok'
 }
 
 tasks.named('test') {
