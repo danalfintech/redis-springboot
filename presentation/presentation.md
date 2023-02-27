@@ -78,9 +78,14 @@ dbsize
 
 # jedis vs lettuce
 
+표 추가
+
 ---
 
 # sentinel 구축 및 테스트
+
+redis-server, sentinel 실행 with conf
+springboot
 
 ---
 
