@@ -78,6 +78,18 @@ dbsize
 
 # jedis vs lettuce
 
+## jedis
+
+Jedis는 Redis를 위한 Java 클라이언트로서 성능과 사용 편의성을 고려하여 설계되었습니다.
+
+## lettuce
+
+Lettuce는 동기, 비동기 및 반응형 사용을 위한 확장 가능하며 스레드 안전한 Redis 클라이언트입니다. 여러 스레드는 BLPOP 및 MULTI/EXEC와 같은 블로킹 및 트랜잭션 작업을 피하면 하나의 연결을 공유할 수 있습니다. Lettuce는 Netty로 구축되었으며 Sentinel, Cluster, Pipelining, Auto-Reconnect 및 Redis 데이터 모델과 같은 고급 Redis 기능을 지원합니다.
+
+---
+
+# jedis vs lettuce
+
 jedis 장점:
 
 - 가벼운 라이브러리로, 이해하고 사용하기 쉬움.
